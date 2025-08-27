@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://uklnfbai376i"]
+
+[ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Texture2D" uid="uid://cvw778sar24am" path="res://assets/stargame2.png" id="1_yqjtg"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-0.749969, -2.24998)
+scale = Vector2(3.97985, 4.21977)
+texture = ExtResource("1_yqjtg")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
+position = Vector2(-10, -14)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.57, 0.57)
