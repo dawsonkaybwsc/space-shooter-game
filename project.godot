@@ -10,9 +10,9 @@ config_version=5
 
 [application]
 
-config/name="space-shooter-game"
-run/main_scene="uid://uklnfbai376i"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/name="Space-shooter-game"
+run/main_scene="res://scenes/game.tscn"
+config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [rendering]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://cm4gi3efbwovg"]
 
-[ext_resource type="Script" uid="uid://dap6r0v1ivxs2" path="res://Scripts/player.gd" id="1_g2els"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://rrsgrr2uje0c" path="res://assets/Spaceshipshooterpyaer.png" id="2_qhqgy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
