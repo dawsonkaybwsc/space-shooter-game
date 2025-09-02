@@ -1,20 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://cm4gi3efbwovg"]
+[gd_scene load_steps=5 format=3 uid="uid://cm4gi3efbwovg"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_g2els"]
-[ext_resource type="Texture2D" uid="uid://rrsgrr2uje0c" path="res://assets/Spaceshipshooterpyaer.png" id="2_qhqgy"]
+[ext_resource type="Texture2D" uid="uid://clin8fvasmt8k" path="res://assets/pixil-frame-0 (5).png" id="2_osnap"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
 radius = 26.0
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_3vyb7"]
-atlas = ExtResource("2_qhqgy")
-region = Rect2(0, 0, 149, 139)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g2els"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_3vyb7")
+"texture": ExtResource("2_osnap")
 }],
 "loop": true,
 "name": &"default",
@@ -28,7 +24,9 @@ script = ExtResource("1_g2els")
 shape = SubResource("CircleShape2D_qhqgy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(96, 44)
 rotation = 1.6057
+scale = Vector2(0.03, 0.038)
 sprite_frames = SubResource("SpriteFrames_g2els")
 
 [node name="Timer" type="Timer" parent="."]
