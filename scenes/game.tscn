@@ -10,8 +10,8 @@
 [node name="Game" type="Node2D"]
 
 [node name="Pixil-frame-0(2)(1)" type="Sprite2D" parent="."]
-position = Vector2(29.4999, -33.25)
-scale = Vector2(0.342448, 0.356927)
+position = Vector2(-6.49978, 2.74952)
+scale = Vector2(0.34966, 0.369747)
 texture = ExtResource("1_6gqud")
 
 [node name="Pixil-frame-0(4)(1)" type="Sprite2D" parent="."]
