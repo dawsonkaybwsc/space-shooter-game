@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=7 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_6gqud"]
 [ext_resource type="Texture2D" uid="uid://brg3pvbwa5bhm" path="res://assets/pixil-frame-0 (4) (1).png" id="1_guw71"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://cvw778sar24am" path="res://assets/stargame2.png" id="1_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="5_ylhqo"]
+[ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/background.tscn" id="6_vfta5"]
 
 [node name="Game" type="Node2D"]
 
@@ -35,3 +36,5 @@ zoom = Vector2(0.57, 0.57)
 position = Vector2(436, -413.75)
 scale = Vector2(0.0570001, 0.05625)
 texture = ExtResource("5_ylhqo")
+
+[node name="background" parent="." instance=ExtResource("6_vfta5")]
