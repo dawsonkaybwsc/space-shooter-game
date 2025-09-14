@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=8 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_6gqud"]
 [ext_resource type="Texture2D" uid="uid://brg3pvbwa5bhm" path="res://assets/pixil-frame-0 (4) (1).png" id="1_guw71"]
@@ -6,11 +6,16 @@
 [ext_resource type="Texture2D" uid="uid://cvw778sar24am" path="res://assets/stargame2.png" id="1_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="5_ylhqo"]
 [ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/background.tscn" id="6_vfta5"]
+[ext_resource type="Texture2D" uid="uid://ciqgxhvrke8bs" path="res://vine_boom/assets/pressed.png" id="7_6qxv5"]
 
 [node name="Game" type="Node2D"]
 
+[node name="background" parent="." instance=ExtResource("6_vfta5")]
+position = Vector2(-1631, -927)
+scale = Vector2(1.7, 1.7)
+
 [node name="Pixil-frame-0(2)(1)" type="Sprite2D" parent="."]
-position = Vector2(-6.49978, 2.74952)
+position = Vector2(-5399, -3101)
 scale = Vector2(0.34966, 0.369747)
 texture = ExtResource("1_6gqud")
 
@@ -26,15 +31,18 @@ scale = Vector2(4.03045, 4.20971)
 texture = ExtResource("1_yqjtg")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(1, 6)
+position = Vector2(-77, 77)
 rotation = -1.64061
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.57, 0.57)
 
 [node name="Pixil-frame-0(7)" type="Sprite2D" parent="."]
-position = Vector2(436, -413.75)
-scale = Vector2(0.0570001, 0.05625)
+position = Vector2(773.25, -714.563)
+scale = Vector2(0.04335, 0.0407125)
 texture = ExtResource("5_ylhqo")
 
-[node name="background" parent="." instance=ExtResource("6_vfta5")]
+[node name="Pressed" type="Sprite2D" parent="."]
+position = Vector2(-3987, 795)
+scale = Vector2(0.282209, 0.254032)
+texture = ExtResource("7_6qxv5")
