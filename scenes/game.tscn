@@ -34,7 +34,6 @@ texture = ExtResource("5_ylhqo")
 position = Vector2(-364, -596)
 rotation = 3.14159
 scale = Vector2(1.5, 1.5)
-speed = null
 
 [node name="mobtimer" type="Timer" parent="."]
 wait_time = 0.5
