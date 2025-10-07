@@ -10,24 +10,25 @@ animations = [{
 "texture": ExtResource("2_hxnxp")
 }],
 "loop": true,
-"name": &"default",
+"name": &"new_animation",
 "speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0swc"]
 size = Vector2(106, 94)
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="CharacterBody2D"]
 collision_mask = 0
-gravity_scale = 0.0
 script = ExtResource("1_uhuyq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(59, 4)
+position = Vector2(-188, 18)
+scale = Vector2(0.986328, 0.988281)
 sprite_frames = SubResource("SpriteFrames_p2ifw")
+animation = &"new_animation"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, -4)
+position = Vector2(-246, 10)
 shape = SubResource("RectangleShape2D_i0swc")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
