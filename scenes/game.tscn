@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_6gqud"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="5_ylhqo"]
-[ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/background.tscn" id="6_vfta5"]
+[ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/TileMap.tscn" id="6_vfta5"]
 [ext_resource type="PackedScene" uid="uid://dmfq1dm8hm8ws" path="res://scenes/mob.tscn" id="7_rmvc8"]
 
 [node name="Game" type="Node2D"]

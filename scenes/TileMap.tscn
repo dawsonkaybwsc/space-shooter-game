@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://p844rgnr6jd8"]
 
-[ext_resource type="Script" path="res://background.gd" id="1_2q3n2"]
+[ext_resource type="Script" path="res://Scripts/background.gd" id="1_2q3n2"]
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="2_lrp36"]
 
 [node name="background" type="AnimatedSprite2D"]
