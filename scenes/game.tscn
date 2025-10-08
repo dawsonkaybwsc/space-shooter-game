@@ -1,48 +1,39 @@
-[gd_scene load_steps=8 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=6 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_6gqud"]
-[ext_resource type="Texture2D" uid="uid://brg3pvbwa5bhm" path="res://assets/pixil-frame-0 (4) (1).png" id="1_guw71"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://cvw778sar24am" path="res://assets/stargame2.png" id="1_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="5_ylhqo"]
-[ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/background.tscn" id="6_vfta5"]
-[ext_resource type="AudioStream" uid="uid://cul78px2skoyt" path="res://assets/minecraft-fortnite-roblox-background-music-368024.mp3" id="7_2sio3"]
+[ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/TileMap.tscn" id="6_vfta5"]
+[ext_resource type="PackedScene" uid="uid://dmfq1dm8hm8ws" path="res://scenes/mob.tscn" id="7_rmvc8"]
 
 [node name="Game" type="Node2D"]
 
+[node name="background" parent="." instance=ExtResource("6_vfta5")]
+position = Vector2(-1631, -927)
+scale = Vector2(1.7, 1.7)
+
 [node name="Pixil-frame-0(2)(1)" type="Sprite2D" parent="."]
-position = Vector2(-6.49978, 2.74952)
+position = Vector2(-5399, -3101)
 scale = Vector2(0.34966, 0.369747)
 texture = ExtResource("1_6gqud")
 
-[node name="Pixil-frame-0(4)(1)" type="Sprite2D" parent="."]
-position = Vector2(7431, -216)
-scale = Vector2(0.800391, 0.7026)
-texture = ExtResource("1_guw71")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(2513, 678)
-scale = Vector2(4.03045, 4.20971)
-texture = ExtResource("1_yqjtg")
-
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(1, 6)
+position = Vector2(-4, -11)
 rotation = -1.64061
+scale = Vector2(2, 2)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.57, 0.57)
 
 [node name="Pixil-frame-0(7)" type="Sprite2D" parent="."]
-position = Vector2(436, -413.75)
-scale = Vector2(0.0570001, 0.05625)
+position = Vector2(773.25, -714.563)
+scale = Vector2(0.04335, 0.0407125)
 texture = ExtResource("5_ylhqo")
 
-[node name="background" parent="." instance=ExtResource("6_vfta5")]
-position = Vector2(3320, 965)
+[node name="Mob" parent="." instance=ExtResource("7_rmvc8")]
+position = Vector2(-364, -596)
+rotation = 3.14159
+scale = Vector2(1.5, 1.5)
 
-[node name="background music" type="Node" parent="."]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="background music"]
-stream = ExtResource("7_2sio3")
-autoplay = true
+[node name="mobtimer" type="Timer" parent="."]
+wait_time = 0.5

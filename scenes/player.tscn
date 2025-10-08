@@ -1,32 +1,40 @@
 [gd_scene load_steps=5 format=3 uid="uid://cm4gi3efbwovg"]
 
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_g2els"]
-[ext_resource type="Texture2D" uid="uid://clin8fvasmt8k" path="res://assets/pixil-frame-0 (5).png" id="2_osnap"]
+[ext_resource type="Texture2D" uid="uid://du2jwxfx6d7mp" path="res://assets/pixil-frame-0 (13).png" id="2_bn5io"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_qhqgy"]
-radius = 26.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_18qbn"]
+size = Vector2(77.025, 49.0102)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g2els"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_osnap")
+"texture": ExtResource("2_bn5io")
 }],
 "loop": true,
 "name": &"default",
 "speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
 }]
 
 [node name="Player" type="CharacterBody2D"]
+rotation = -0.0314159
 script = ExtResource("1_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_qhqgy")
+position = Vector2(-0.316539, -5.51244)
+rotation = 0.0523599
+shape = SubResource("RectangleShape2D_18qbn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(96, 44)
+position = Vector2(-42, -13)
 rotation = 0.0506145
-scale = Vector2(0.03, 0.038)
+scale = Vector2(0.842658, 0.752102)
 sprite_frames = SubResource("SpriteFrames_g2els")
 
 [node name="Timer" type="Timer" parent="."]
