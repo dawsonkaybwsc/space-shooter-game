@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://dmfq1dm8hm8ws"]
 
 [ext_resource type="Script" path="res://Mob.gd" id="1_uhuyq"]
-[ext_resource type="Texture2D" uid="uid://d1qebp3hyfypo" path="res://assets/pixil-frame-0 (12).png" id="2_hxnxp"]
+[ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="2_b31bs"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_p2ifw"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_hxnxp")
+"texture": ExtResource("2_b31bs")
 }],
 "loop": true,
 "name": &"new_animation",
@@ -15,20 +15,20 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0swc"]
-size = Vector2(107, 94)
+size = Vector2(85, 91)
 
 [node name="Mob" type="CharacterBody2D"]
 collision_mask = 0
 script = ExtResource("1_uhuyq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-188, 18)
-scale = Vector2(0.986328, 0.988281)
+position = Vector2(-240.338, 35.3999)
+scale = Vector2(0.0150676, 0.01412)
 sprite_frames = SubResource("SpriteFrames_p2ifw")
 animation = &"new_animation"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-246.5, 10)
+position = Vector2(-257.5, 22.5)
 shape = SubResource("RectangleShape2D_i0swc")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

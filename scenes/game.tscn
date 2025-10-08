@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=4 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_8ahd4"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
-[ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="4_4tuqs"]
 [ext_resource type="PackedScene" uid="uid://dmfq1dm8hm8ws" path="res://scenes/mob.tscn" id="7_rmvc8"]
 
 [node name="Game" type="Node2D"]
@@ -12,13 +11,8 @@ position = Vector2(-4.4999, 3.00001)
 scale = Vector2(0.216847, 0.221154)
 texture = ExtResource("1_8ahd4")
 
-[node name="Pixil-frame-0(7)" type="Sprite2D" parent="."]
-position = Vector2(590, -417)
-scale = Vector2(0.021, 0.021)
-texture = ExtResource("4_4tuqs")
-
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(-2.00001, 1.90735e-06)
+position = Vector2(3, -5)
 rotation = -0.0593412
 scale = Vector2(1.4, 1.4)
 
@@ -26,8 +20,14 @@ scale = Vector2(1.4, 1.4)
 zoom = Vector2(0.57, 0.57)
 
 [node name="Mob" parent="." instance=ExtResource("7_rmvc8")]
-position = Vector2(-360, -456)
-rotation = 3.14159
+position = Vector2(-502, -1010)
+rotation = 4.75602
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-502, -1010)
+rotation = 4.75602
+scale = Vector2(1.3, 1.3)
 
 [node name="mobtimer" type="Timer" parent="."]
 wait_time = 0.5

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var speed: float = 350.0 
+@export var speed: float = 120.0 
 var direction: int = 1
 
 var player: CharacterBody2D = null
@@ -13,6 +13,15 @@ func _ready():
 func _physics_process(delta):
 
 	velocity.x = speed * direction
+	move_and_slide()
+	if is_on_wall():
+		direction *= -1
+		if direction == -1:
+			$AnimatedSprite2D.flip_h = true
+		else:
+			$AnimatedSprite2D.flip_h = false
+
+	velocity.y = speed * direction
 	move_and_slide()
 	if is_on_wall():
 		direction *= -1
