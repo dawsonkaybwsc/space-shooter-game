@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=8 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_6gqud"]
 [ext_resource type="Texture2D" uid="uid://brg3pvbwa5bhm" path="res://assets/pixil-frame-0 (4) (1).png" id="1_guw71"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cvw778sar24am" path="res://assets/stargame2.png" id="1_yqjtg"]
 [ext_resource type="Texture2D" uid="uid://x7xybiyopned" path="res://assets/pixil-frame-0 (7).png" id="5_ylhqo"]
 [ext_resource type="PackedScene" uid="uid://p844rgnr6jd8" path="res://scenes/background.tscn" id="6_vfta5"]
+[ext_resource type="AudioStream" uid="uid://cul78px2skoyt" path="res://assets/minecraft-fortnite-roblox-background-music-368024.mp3" id="7_2sio3"]
 
 [node name="Game" type="Node2D"]
 
@@ -38,3 +39,10 @@ scale = Vector2(0.0570001, 0.05625)
 texture = ExtResource("5_ylhqo")
 
 [node name="background" parent="." instance=ExtResource("6_vfta5")]
+position = Vector2(3320, 965)
+
+[node name="background music" type="Node" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="background music"]
+stream = ExtResource("7_2sio3")
+autoplay = true
