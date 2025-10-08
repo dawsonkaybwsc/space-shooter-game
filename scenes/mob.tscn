@@ -15,7 +15,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0swc"]
-size = Vector2(106, 94)
+size = Vector2(107, 94)
 
 [node name="Mob" type="CharacterBody2D"]
 collision_mask = 0
@@ -28,7 +28,7 @@ sprite_frames = SubResource("SpriteFrames_p2ifw")
 animation = &"new_animation"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-246, 10)
+position = Vector2(-246.5, 10)
 shape = SubResource("RectangleShape2D_i0swc")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
