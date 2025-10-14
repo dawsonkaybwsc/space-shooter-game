@@ -1,7 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=7 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_8ahd4"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="Script" path="res://Mob2.gd" id="4_xn7kp"]
+[ext_resource type="Script" path="res://Mob3.gd" id="5_e70xm"]
+[ext_resource type="Script" path="res://Mob4.gd" id="6_fkg8p"]
 [ext_resource type="PackedScene" uid="uid://dmfq1dm8hm8ws" path="res://scenes/mob.tscn" id="7_rmvc8"]
 
 [node name="Game" type="Node2D"]
@@ -22,12 +25,4963 @@ zoom = Vector2(0.57, 0.57)
 [node name="Mob" parent="." instance=ExtResource("7_rmvc8")]
 position = Vector2(-502, -1010)
 rotation = 4.75602
-scale = Vector2(1.3, 1.3)
+scale = Vector2(1e-05, 1e-05)
 
 [node name="Mob" parent="Mob" instance=ExtResource("7_rmvc8")]
-position = Vector2(-502, -1010)
-rotation = 4.75602
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
 scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(1276.53, 120.712)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(527.872, -1263.55)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1276.53, 120.712)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(527.872, -1263.55)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1276.53, 120.712)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(527.872, -1263.55)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1276.53, 120.712)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(527.872, -1263.55)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob3" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1396.48, 154.286)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(622.641, 150.137)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(-306.03, -882.667)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob" parent="Mob/Mob/Mob2/Mob2/Mob2/Mob/Mob/Mob/Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob/Mob/Mob" instance=ExtResource("7_rmvc8")]
+position = Vector2(912.465, -651.188)
+rotation = 0.0750492
+scale = Vector2(1.3, 1.3)
+
+[node name="Mob2" parent="." instance=ExtResource("7_rmvc8")]
+position = Vector2(-716.122, -1629.54)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5309.9, 1505.97)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-9117.71, -16203.7)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(10540.4, -7544.95)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-4097.45, -7544.74)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(58126.5, -43554.5)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5448.33, 10486.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(30484.8, -10726.4)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-6603.76, -10076.9)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3132.73, 540.149)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-6185.96, -10541.3)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(6556.04, -4686.73)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(8232.73, 4499.93)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(5309.9, 1505.97)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(11372, 6709.44)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(36577.1, 23973.5)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-716.122, -1629.54)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(31125.8, 28272.7)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(33016.1, 28049.8)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-7383.54, -13715.6)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-8933.45, -17993.7)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(1615.96, -291.538)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(4828.19, -11212.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(22913.7, 8027.17)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(29899.1, 201089)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(18122.3, 600.913)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2779.11, -274.703)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-31.1735, -654.877)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2096.44, 2648.96)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-229.704, -520.964)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob5" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(18122.3, 600.913)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2779.11, -274.703)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-31.1735, -654.877)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2096.44, 2648.96)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-229.704, -520.964)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob5" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(18122.3, 600.913)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2779.11, -274.703)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-31.1735, -654.877)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2096.44, 2648.96)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-229.704, -520.964)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob5/Mob5/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-716.122, -1629.54)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(5309.9, 1505.97)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(11478.5, 10546.5)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-6435.26, -3745.91)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(13440.7, 12580.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(73092.5, 74429.7)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(110464, 108350)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(12545.6, 73533.4)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(480.444, -266.984)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-9128.03, -16218.6)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(3073.91, -3578.45)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-122.616, 186.248)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(2712.78, 19137.7)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-10677.9, -20496.6)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(380.028, -546.461)
+scale = Vector2(0.01, 0.01)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(49070.8, -9640.23)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(14739.1, 668.228)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(7154.28, -12881.5)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(0.1, 0.1)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(5604.37, -17159.6)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-71910.5, -304288)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(10965.5, -200443)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(37760.4, 193102)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(64041, 169901)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-716.122, -1629.54)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(5309.9, 1505.97)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3488.71, -2438.78)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(26008, 5778.18)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-7759.08, -4333.17)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(29506.5, 21075.5)
+scale = Vector2(3, 3)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob4" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(7200.24, 1283.09)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2150.09, -6206.88)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3172, 5634)
+scale = Vector2(0.5, 0.5)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3700, -10484.9)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(5201.39, 5916.2)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.69, 1.69)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(781.657, -544.379)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-160.072, -285.707)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob2" parent="Mob2/Mob4/Mob4/Mob4/Mob4/Mob4/Mob3/Mob4/Mob4/Mob4/Mob3/Mob2/Mob2/Mob2/Mob2/Mob2/Mob2" instance=ExtResource("7_rmvc8")]
+position = Vector2(-391714, -28981.8)
+scale = Vector2(1.4, 1.4)
+script = ExtResource("4_xn7kp")
+
+[node name="Mob3" parent="." instance=ExtResource("7_rmvc8")]
+position = Vector2(-922, -1781)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(461.093, -803.669)
+rotation = -6.28319
+scale = Vector2(3, 3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(699.092, -188.139)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.355, -18.013)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-453.093, 534.71)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-72.4723, 189.84)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(581.954, -390.311)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-86.5527, 27.7415)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-4773.43, -97.5466)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1656, 302)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(4069.49, 1949.76)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-9903.46, -14013.4)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(392.669, -883.249)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1134.71, -0.630684)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4143.72, -4059.96)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-123.543, -264.051)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4727.29, -4482.22)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-666.948, 1047.36)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3315.64, -117.127)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3095.19, -9775.24)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-732.357, -2001.99)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1216.94, 1693.47)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(285.638, 268.402)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(965.848, 3421.68)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(31.4954, 2275.82)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob5" parent="Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-922, -1781)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(461.093, -803.669)
+rotation = -6.28319
+scale = Vector2(3, 3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(699.092, -188.139)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.355, -18.013)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-453.093, 534.71)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-72.4723, 189.84)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(581.954, -390.311)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-86.5527, 27.7415)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-4773.43, -97.5466)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1656, 302)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(4069.49, 1949.76)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-9903.46, -14013.4)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(392.669, -883.249)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1134.71, -0.630684)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4143.72, -4059.96)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-123.543, -264.051)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4727.29, -4482.22)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-666.948, 1047.36)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3315.64, -117.127)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3095.19, -9775.24)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-732.357, -2001.99)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1216.94, 1693.47)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(285.638, 268.402)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(965.848, 3421.68)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(31.4954, 2275.82)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob5" parent="Mob3/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(-922, -1781)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(461.093, -803.669)
+rotation = -6.28319
+scale = Vector2(3, 3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(699.092, -188.139)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.355, -18.013)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-453.093, 534.71)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-72.4723, 189.84)
+rotation = -6.28319
+scale = Vector2(0.1, 0.1)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(581.954, -390.311)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-86.5527, 27.7415)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-4773.43, -97.5466)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1656, 302)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(4069.49, 1949.76)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-9903.46, -14013.4)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(392.669, -883.249)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.945, -49.6157)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1134.71, -0.630684)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4143.72, -4059.96)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-123.543, -264.051)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(4727.29, -4482.22)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-666.948, 1047.36)
+rotation = -3.09621
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(3315.64, -117.127)
+rotation = -6.28319
+scale = Vector2(1.7, 1.7)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-3095.19, -9775.24)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-732.357, -2001.99)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(1216.94, 1693.47)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(285.638, 268.402)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(416.442, -37.3017)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(531.878, 121.292)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(105.419, -567.449)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(455.116, 30.8111)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(-51.761, -349.069)
+rotation = -6.28319
+scale = Vector2(0.5, 0.5)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(965.848, 3421.68)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(31.4954, 2275.82)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob3" parent="Mob3/Mob5/Mob5/Mob4/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob4/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3/Mob3" instance=ExtResource("7_rmvc8")]
+position = Vector2(640.936, -486.637)
+rotation = -6.28319
+scale = Vector2(1.3, 1.3)
+script = ExtResource("5_e70xm")
+
+[node name="Mob4" parent="." instance=ExtResource("7_rmvc8")]
+position = Vector2(-85.8167, -6926.05)
+rotation = -0.755728
+scale = Vector2(0.5, 0.5)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(761.296, -505.5)
+rotation = 0.141372
+scale = Vector2(1.9, 1.9)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(666.433, -566.531)
+rotation = 0.141372
+scale = Vector2(1.9, 1.9)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(8206.25, -1543.53)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1860.55, 315.598)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(266.489, -349.221)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(4169.76, -2869.95)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-2076.35, 351.721)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(317.173, -528.107)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(92.6299, 308.027)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(1594.99, -510.879)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-13.5876, -276.105)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(802.625, 157.088)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(1214.22, -1372.22)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(62.5186, 168.138)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-265.205, 189.387)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-22.9224, -106.771)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob5" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(232.662, 89.1299)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(910.538, 255.222)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(1081.53, -556.489)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-82.0203, 150.35)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(480.706, -588.808)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-113.381, -103.091)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(13.2927, 392.152)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(685.17, -989.779)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob5" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(1033.66, 774.438)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(1403.4, -1195.06)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-177.59, 286.861)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(854.414, 490.248)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.379, 439.057)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(295.628, -184.843)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(327.83, -287.714)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(467.537, -82.8642)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-858.218, 756.875)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(419.986, -223.24)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob5" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(200.696, 185.905)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(1702.36, 158.343)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-73.1855, 131.087)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(295.628, -184.843)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(327.83, -287.714)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(62.5186, 168.138)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1091.03, 650.181)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(2459.12, -165.863)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob5" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(489.616, 277.789)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(45.3604, 298.359)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(92.6299, 308.027)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(854.414, 490.248)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-254.379, 439.057)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(295.628, -184.843)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(327.83, -287.714)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(467.537, -82.8642)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-849.242, 778.073)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(967.688, 25.4488)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob5" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(92.6299, 308.027)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5" instance=ExtResource("7_rmvc8")]
+position = Vector2(1702.36, 158.343)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-73.1855, 131.087)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(572.709, 194.613)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(3.81116, -98.1062)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-72.2734, 925.978)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(-1973.55, -123.059)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
+
+[node name="Mob4" parent="Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4/Mob5/Mob5/Mob4/Mob4/Mob5/Mob4/Mob4/Mob4/Mob4/Mob4/Mob4" instance=ExtResource("7_rmvc8")]
+position = Vector2(2162.58, -540.855)
+rotation = 0.141372
+scale = Vector2(1.2, 1.2)
+script = ExtResource("6_fkg8p")
+speed = 120.0
 
 [node name="mobtimer" type="Timer" parent="."]
 wait_time = 0.5

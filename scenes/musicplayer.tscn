@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://btg0xkcd6u7xp"]
+
+[ext_resource type="AudioStream" uid="uid://cul78px2skoyt" path="res://assets/minecraft-fortnite-roblox-background-music-368024.mp3" id="1_vgpn3"]
+
+[node name="musicplayer" type="Node2D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_vgpn3")
+autoplay = true
