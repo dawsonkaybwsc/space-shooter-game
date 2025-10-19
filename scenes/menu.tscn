@@ -1,0 +1,58 @@
+[gd_scene load_steps=3 format=3 uid="uid://tafibrlbvlnj"]
+
+[ext_resource type="Script" path="res://Scripts/menu.gd" id="1_uhsd6"]
+
+[sub_resource type="Theme" id="Theme_08s41"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_08s41")
+script = ExtResource("1_uhsd6")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -2.0
+offset_right = 1151.0
+offset_bottom = 646.0
+theme_override_constants/separation = 50
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Asteroid Fighter"
+horizontal_alignment = 1
+
+[node name="start" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+text = "Start"
+
+[node name="cred" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+text = "Credits"
+
+[node name="exit" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
+text = "Exit
+"
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer"]
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
