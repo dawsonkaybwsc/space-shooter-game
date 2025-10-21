@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://uklnfbai376i"]
+[gd_scene load_steps=8 format=3 uid="uid://uklnfbai376i"]
 
 [ext_resource type="Texture2D" uid="uid://67gm7k4ok1ru" path="res://assets/pixil-frame-0 (2) (1).png" id="1_8ahd4"]
+[ext_resource type="Script" path="res://Scripts/game.gd" id="1_i4uaw"]
 [ext_resource type="PackedScene" uid="uid://cm4gi3efbwovg" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Script" path="res://Mob2.gd" id="4_xn7kp"]
 [ext_resource type="Script" path="res://Mob3.gd" id="5_e70xm"]
@@ -8,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dmfq1dm8hm8ws" path="res://scenes/mob.tscn" id="7_rmvc8"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_i4uaw")
 
 [node name="Pixil-frame-0(2)(1)" type="Sprite2D" parent="."]
 position = Vector2(-4.4999, 3.00001)
@@ -4985,3 +4987,10 @@ speed = 120.0
 
 [node name="mobtimer" type="Timer" parent="."]
 wait_time = 0.5
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 26.385
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://tafibrlbvlnj"]
+[gd_scene load_steps=3 format=3 uid="uid://cv5phdp7iu2kl"]
 
-[ext_resource type="Script" path="res://Scripts/menu.gd" id="1_uhsd6"]
+[ext_resource type="Script" path="res://Scripts/menu1.gd" id="1_8nxid"]
 
 [sub_resource type="Theme" id="Theme_08s41"]
 
@@ -12,7 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_08s41")
-script = ExtResource("1_uhsd6")
+script = ExtResource("1_8nxid")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 0
@@ -30,15 +30,14 @@ theme_override_constants/separation = 50
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
-text = "Asteroid Fighter"
+text = "Level 1 Complete!"
 horizontal_alignment = 1
 
-[node name="Start" type="Button" parent="VBoxContainer"]
+[node name="Next" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-text = "Start
-"
+text = "Next"
 
 [node name="cred" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(100, 0)
@@ -49,5 +48,5 @@ text = "Credits"
 [node name="ColorRect" type="ColorRect" parent="VBoxContainer"]
 layout_mode = 2
 
-[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="VBoxContainer/cred" to="." method="_on_cred_pressed"]
