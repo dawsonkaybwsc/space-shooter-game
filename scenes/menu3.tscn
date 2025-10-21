@@ -1,6 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://68sr1vgaku11"]
-
-[ext_resource type="Script" path="res://Scripts/menu2.gd" id="1_5rjlq"]
+[gd_scene load_steps=2 format=3 uid="uid://68sr1vgaku11"]
 
 [sub_resource type="Theme" id="Theme_08s41"]
 
@@ -12,7 +10,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = SubResource("Theme_08s41")
-script = ExtResource("1_5rjlq")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 0
@@ -30,23 +27,10 @@ theme_override_constants/separation = 50
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 50
-text = "Level 2 Complete!"
+text = "Level 3 complete!
+
+Well done you have finished the game."
 horizontal_alignment = 1
-
-[node name="Next" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(100, 0)
-layout_mode = 2
-theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-text = "Next"
-
-[node name="cred" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(100, 0)
-layout_mode = 2
-theme_override_colors/font_color = Color(0.831373, 0.831373, 0.831373, 1)
-text = "Credits"
 
 [node name="ColorRect" type="ColorRect" parent="VBoxContainer"]
 layout_mode = 2
-
-[connection signal="pressed" from="VBoxContainer/Next" to="." method="_on_next_pressed"]
-[connection signal="pressed" from="VBoxContainer/cred" to="." method="_on_cred_pressed"]
